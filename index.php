@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบสารสนเทศ วท.นร</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+    body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+.description {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.image-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ระบบสารสนเทศ วท.นร</h1>
+    </header>
+    <section class="description">
+        <p>ยินดีต้อนรับสู่ระบบสารสนเทศ วท.นร ที่ช่วยให้คุณสามารถจัดการข้อมูลและการทำงานได้อย่างมีประสิทธิภาพ</p>
+    </section>
+    <section class="images">
+        <div class="image-container">
+          <p><a href="m_login.php"><img src="image/7482_0.jpg"></a></p>
+          <p>เข้าสู่ระะบบนักศึกษา</p>
+      </div>
+        <div class="image-container">
+          <p><a href="a_login.php"><img src="image/7483_0.jpg"></a></p>
+          <p>เข้าสู่ระบบผูู้ดูแล</p>
+      </div>
+    </section>
+</body>
+</html>
